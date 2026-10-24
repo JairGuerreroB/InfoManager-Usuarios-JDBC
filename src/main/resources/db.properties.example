@@ -1,0 +1,10 @@
+# Configuración de la conexión JDBC con MySQL.
+#
+# 1. Copie este archivo en esta misma carpeta con el nombre: db.properties
+# 2. Reemplace db.clave por la contraseña de su usuario de MySQL.
+#
+# db.properties NO se sube a GitHub (está en .gitignore) para no publicar contraseñas.
+
+db.url=jdbc:mysql://localhost:3306/infomanager_db?sslMode=DISABLED&allowPublicKeyRetrieval=true&serverTimezone=America/Bogota
+db.usuario=root
+db.clave=CAMBIE_ESTA_CLAVE

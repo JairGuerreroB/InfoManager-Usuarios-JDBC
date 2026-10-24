@@ -1,0 +1,19 @@
+# Credenciales locales (nunca se suben al repositorio)
+src/main/resources/db.properties
+
+# Compilación
+target/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+nbproject/private/
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
